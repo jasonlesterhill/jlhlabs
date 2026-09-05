@@ -1,0 +1,771 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="LowPowerWireless_files/filelist.xml">
+<link rel=Edit-Time-Data href="LowPowerWireless_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jason Hill</o:Author>
+  <o:LastAuthor>Jason Hill</o:LastAuthor>
+  <o:Revision>9</o:Revision>
+  <o:TotalTime>14</o:TotalTime>
+  <o:Created>2003-09-14T19:57:00Z</o:Created>
+  <o:LastSaved>2003-09-14T21:15:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1592</o:Words>
+  <o:Characters>9076</o:Characters>
+  <o:Company>.</o:Company>
+  <o:Lines>75</o:Lines>
+  <o:Paragraphs>21</o:Paragraphs>
+  <o:CharactersWithSpaces>10647</o:CharactersWithSpaces>
+  <o:Version>10.3501</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>200</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:ApplyBreakingRules/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:128;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-indent:.5in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	text-indent:-.3in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l1 level1 lfo2;
+	tab-stops:list .3in;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.4in;
+	text-indent:-.4in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l1 level2 lfo2;
+	tab-stops:list .4in;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-list:l1 level3 lfo2;
+	tab-stops:list .5in;
+	font-size:13.0pt;
+	font-family:Arial;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.6in;
+	text-indent:-.6in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	mso-list:l1 level4 lfo2;
+	tab-stops:list .6in;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+h5
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.7in;
+	text-indent:-.7in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	mso-list:l1 level5 lfo2;
+	tab-stops:list .7in;
+	font-size:13.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+h6
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.8in;
+	text-indent:-.8in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	mso-list:l1 level6 lfo2;
+	tab-stops:list .8in;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.9in;
+	text-indent:-.9in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	mso-list:l1 level7 lfo2;
+	tab-stops:list .9in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.0in;
+	text-indent:-1.0in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	mso-list:l1 level8 lfo2;
+	tab-stops:list 1.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.1in;
+	text-indent:-1.1in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	mso-list:l1 level9 lfo2;
+	tab-stops:list 1.1in;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-name:"Caption\,Caption Char Char";
+	mso-style-noshow:yes;
+	mso-style-link:"Caption Char Char Char";
+	mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:.5in;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+span.CaptionCharCharChar
+	{mso-style-name:"Caption Char Char Char";
+	mso-style-link:"Caption\,Caption Char Char";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:2438965;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1502241022 67698693 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:2018460186;
+	mso-list-template-ids:-1661672302;}
+@list l1:level1
+	{mso-level-style-link:"Heading 1";
+	mso-level-text:"Chapter %1\:";
+	mso-level-tab-stop:.3in;
+	mso-level-number-position:left;
+	margin-left:.3in;
+	text-indent:-.3in;}
+@list l1:level2
+	{mso-level-style-link:"Heading 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:.4in;
+	mso-level-number-position:left;
+	margin-left:.4in;
+	text-indent:-.4in;}
+@list l1:level3
+	{mso-level-style-link:"Heading 3";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	margin-left:.5in;
+	text-indent:-.5in;}
+@list l1:level4
+	{mso-level-style-link:"Heading 4";
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:.6in;
+	mso-level-number-position:left;
+	margin-left:.6in;
+	text-indent:-.6in;}
+@list l1:level5
+	{mso-level-style-link:"Heading 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:.7in;
+	mso-level-number-position:left;
+	margin-left:.7in;
+	text-indent:-.7in;}
+@list l1:level6
+	{mso-level-style-link:"Heading 6";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:.8in;
+	mso-level-number-position:left;
+	margin-left:.8in;
+	text-indent:-.8in;}
+@list l1:level7
+	{mso-level-style-link:"Heading 7";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:.9in;
+	mso-level-number-position:left;
+	margin-left:.9in;
+	text-indent:-.9in;}
+@list l1:level8
+	{mso-level-style-link:"Heading 8";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-1.0in;}
+@list l1:level9
+	{mso-level-style-link:"Heading 9";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:1.1in;
+	mso-level-number-position:left;
+	margin-left:1.1in;
+	text-indent:-1.1in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h1 style='margin-left:0in;text-indent:0in;mso-list:none;tab-stops:.5in'>Background
+Perspective on Wireless Micro-networking</h1>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in;line-height:
+normal;mso-list:l0 level1 lfo3;tab-stops:list 1.0in'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt'>Ultra-low Power<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in;line-height:
+normal;mso-list:l0 level1 lfo3;tab-stops:list 1.0in'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt'>Short-range RF wireless<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in;line-height:
+normal;mso-list:l0 level1 lfo3;tab-stops:list 1.0in'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt'>Low-cost <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in;line-height:
+normal;mso-list:l0 level1 lfo3;tab-stops:list 1.0in'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt'>Self-healing
+ad-hoc networking<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in;line-height:
+normal;mso-list:l0 level1 lfo3;tab-stops:list 1.0in'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt'>Multi-hop, peer-to-peer
+topology<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in;line-height:
+normal;mso-list:l0 level1 lfo3;tab-stops:list 1.0in'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt'>Multi-year
+operation<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>The
+emerging field of wireless sensor networks combines sensing, computation, and
+communication into a single tiny device.<span style='mso-spacerun:yes'> 
+</span>Through advanced mesh networking protocols, these devices form a sea of
+connectivity that extends the reach of cyberspace out into the physical
+world.<span style='mso-spacerun:yes'>  </span>As water flows to fill every room
+of a submerged ship, the mesh networking connectivity will seek out and exploit
+any possible communication path by hopping data from node to node in search of
+its destination.<span style='mso-spacerun:yes'>  </span>While the capabilities
+of any single device are minimal, the composition of hundreds of devices offers
+radical new technological possibilities.<span style='mso-spacerun:yes'>  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>The
+power of wireless sensor networks lies in the ability to deploy large numbers
+of tiny nodes that assemble and configure themselves.<span
+style='mso-spacerun:yes'>   </span>Usage scenarios for these devices range from
+real-time tracking, to monitoring of environmental conditions, to ubiquitous
+computing environments, to <i style='mso-bidi-font-style:normal'>in situ</i> monitoring
+of the health of structures or equipment.<span style='mso-spacerun:yes'>  
+</span>While often referred to as wireless sensor networks, they can also
+control actuators that extend control from cyberspace into the physical world.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>The
+most straightforward application of wireless sensor network technology is to
+monitor remote environments for low frequency data trends.<span
+style='mso-spacerun:yes'>   </span>For example, a chemical plant could be
+easily monitored for leaks by hundreds of sensors that automatically form a
+wireless interconnection network and immediately report the detection of any
+chemical leaks.<span style='mso-spacerun:yes'>   </span>Unlike traditional
+wired systems, deployment costs would be minimal.<span
+style='mso-spacerun:yes'>  </span>Instead of having to deploy thousands of feet
+of wire routed through protective conduit, installers simply have to place
+quarter-sized device, such as the one pictured in below, at each sensing
+point.<span style='mso-spacerun:yes'>   </span>The network could be
+incrementally extended by simply adding more devices – no rework or complex
+configuration. With the devices used by JLH Labs, the system would be capable
+of monitoring for anomalies for several years on a single set of batteries.<o:p></o:p></span></p>
+
+<div style='mso-element:frame;mso-element-frame-hspace:9.35pt;mso-element-wrap:
+no-wrap-beside;mso-element-anchor-horizontal:page;mso-element-left:center;
+mso-element-top:top;mso-height-rule:exactly'>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0 align=center>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:9.35pt;
+  padding-bottom:0in;padding-left:9.35pt'>
+  <div>
+  <p class=MsoNormal align=center style='text-align:center;text-indent:0in;
+  line-height:normal;page-break-after:avoid;mso-element:frame;mso-element-frame-hspace:
+  9.35pt;mso-element-wrap:no-wrap-beside;mso-element-anchor-horizontal:page;
+  mso-element-left:center;mso-element-top:top;mso-height-rule:exactly'><span
+  style='font-size:14.0pt'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+   coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+   filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:239.25pt;
+   height:162.75pt'>
+   <v:imagedata src="LowPowerWireless_files/image001.gif" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=319 height=217
+  src="LowPowerWireless_files/image001.gif" v:shapes="_x0000_i1025"><![endif]><o:p></o:p></span></p>
+  <p class=MsoCaption align=left style='text-align:left;text-indent:0in;
+  line-height:normal;mso-element:frame;mso-element-frame-hspace:9.35pt;
+  mso-element-wrap:no-wrap-beside;mso-element-anchor-horizontal:page;
+  mso-element-left:center;mso-element-top:top;mso-height-rule:exactly'><a
+  name="_Toc41288573"><span style='font-size:14.0pt'>Wireless sensor network
+  device designed to be the approximate size of a quarter.<span
+  style='mso-spacerun:yes'>  </span>Future devices will continue to be smaller,
+  cheaper and longer lasting.</span></a><span style='font-size:14.0pt'><o:p></o:p></span></p>
+  </div>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<![if !supportTextWrap]><br clear=ALL>
+<![endif]>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>In
+addition to drastically reducing the installation costs, wireless sensor
+networks have the ability to dynamically adapt to changing environments.<span
+style='mso-spacerun:yes'>   </span>Adaptation mechanisms can respond to changes
+in network topologies or can cause the network to shift between drastically
+different modes of operation.<span style='mso-spacerun:yes'>  </span><span
+style='mso-spacerun:yes'> </span>For example, the same embedded network
+performing leak monitoring in a chemical factory might be reconfigured into a
+network designed to localize the source of a leak and track the diffusion of
+poisonous gases.<span style='mso-spacerun:yes'>    </span>The network could
+then direct workers to the safest path for emergency evacuation.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"MS Mincho"'>Other wireless systems only scratch the
+surface of possibilities emerging from the integration of low-power
+communication, sensing, energy storage, and computation. <span
+style='mso-bidi-font-weight:bold'>Generally, when people consider </span>wireless
+devices they think of items such as cell phones, personal digital assistants,
+or laptops with 802.11.<span style='mso-spacerun:yes'>   </span>These items
+costs hundreds of dollars, target specialized applications, and rely on the
+pre-deployment of extensive infrastructure support.<span
+style='mso-spacerun:yes'>   </span>In contrast, wireless sensor networks use
+small, low-cost embedded devices for a wide range of applications and do not
+rely on any pre-existing infrastructure.<span style='mso-spacerun:yes'>  
+</span>The vision is that these devise will cost less that $1 by 2005.<span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"MS Mincho"'>Unlike traditional wireless devices,
+wireless sensor nodes do not need to communicate directly with the nearest
+high-power control tower or base station, but only with their local peers.<span
+style='mso-spacerun:yes'>  </span>Instead, of relying on a pre-deployed
+infrastructure, each individual sensor or actuator becomes part of the overall
+infrastructure.<span style='mso-spacerun:yes'>  </span>Peer-to-peer networking
+protocols provide a mesh-like interconnect to shuttle data between the
+thousands of tiny embedded devices in a multi-hop fashion.<span
+style='mso-spacerun:yes'>  </span>The flexible mesh architectures envisioned
+dynamically adapt to support introduction of new nodes or expand to cover a
+larger geographic region.<span style='mso-spacerun:yes'>   </span>Additionally,
+the system can automatically adapt to compensate for node failures. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"MS Mincho"'>The vision of mesh networking is based on
+strength in numbers.<span style='mso-spacerun:yes'>  </span>Unlike cell phone
+systems that deny service when too many phones are active in a small area, the
+interconnection of a wireless sensor network only grows stronger as nodes are
+added.<span style='mso-spacerun:yes'>  </span>As long as there is sufficient
+density, a single network of nodes can grow to cover limitless area.<span
+style='mso-spacerun:yes'>  </span>With each node having a communication range
+of 50 meters and costing less that $1 a sensor network that encircled the
+equator of the earth will cost less that $1M.<o:p></o:p></span></p>
+
+<div style='mso-element:frame;mso-element-frame-hspace:9.35pt;mso-element-wrap:
+no-wrap-beside;mso-element-anchor-vertical:page;mso-element-anchor-horizontal:
+page;mso-element-left:197.7pt;mso-element-top:18.05pt;mso-height-rule:exactly'>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:9.35pt;
+  padding-bottom:0in;padding-left:9.35pt'>
+  <div>
+  <p class=MsoNormal align=center style='text-align:center;text-indent:0in;
+  line-height:normal;page-break-after:avoid;mso-element:frame;mso-element-frame-hspace:
+  9.35pt;mso-element-wrap:no-wrap-beside;mso-element-anchor-vertical:page;
+  mso-element-anchor-horizontal:page;mso-element-left:197.7pt;mso-element-top:
+  18.05pt;mso-height-rule:exactly'><span style='font-size:14.0pt'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1026" type="#_x0000_t75" style='width:239.25pt;height:179.25pt'>
+   <v:imagedata src="LowPowerWireless_files/image002.gif" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=319 height=239
+  src="LowPowerWireless_files/image002.gif" v:shapes="_x0000_i1026"><![endif]><o:p></o:p></span></p>
+  <p class=MsoCaption align=left style='text-align:left;text-indent:0in;
+  line-height:normal;mso-element:frame;mso-element-frame-hspace:9.35pt;
+  mso-element-wrap:no-wrap-beside;mso-element-anchor-vertical:page;mso-element-anchor-horizontal:
+  page;mso-element-left:197.7pt;mso-element-top:18.05pt;mso-height-rule:exactly'><a
+  name="_Toc41288574"><span style='font-size:14.0pt'>Possible deployment of
+  ac-hoc wireless embedded network for precision agriculture.<span
+  style='mso-spacerun:yes'>  </span>Sensors detect temperature, light levels
+  and soil moisture at hundreds of points across a field and communicate their
+  data over a multi-hop network for analysi<span style='mso-no-proof:yes'>s.</span></span></a><span
+  style='font-size:14.0pt'><o:p></o:p></span></p>
+  </div>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<![if !supportTextWrap]><br clear=ALL>
+<![endif]>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"MS Mincho"'><span style='mso-spacerun:yes'> </span>An
+example network is shown in <span style='mso-field-code:" REF _Ref38639064 \\h &#1; \\* MERGEFORMAT "'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000D0000005F00520065006600330038003600330039003000360034000000</w:data>
+</xml><![endif]--></span>above.<span style='mso-spacerun:yes'>  </span>It
+depicts a precision agriculture deployment—an active area of application
+research.<span style='mso-spacerun:yes'>   </span>Hundreds of nodes scattered
+throughout a field assemble together, establish a routing topology, and
+transmit data back to a collection point.<span style='mso-spacerun:yes'> 
+</span>The application demands for robust, scalable, low-cost and easy to
+deploy networks are perfectly met by a wireless sensor network.<span
+style='mso-spacerun:yes'>  </span>If one of the nodes should fail, a new
+topology would be selected and the overall network would continue to deliver
+data.<span style='mso-spacerun:yes'>  </span>If more nodes are placed in the
+field, they only create more potential routing opportunities.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"MS Mincho"'>There is extensive research in the
+development of new algorithms for data aggregation, ad hoc routing, and
+distributed signal processing in the context of wireless sensor networks.<span
+style='mso-spacerun:yes'>  </span>JLH Labs has strong ties into the research
+community in order to track the latest algorithmic advances.</span><span
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>In
+developing the micro-networking technology, the most difficult resource
+constraint to meet is power consumption.<span style='mso-spacerun:yes'> 
+</span>As physical size decreases, so does energy capacity.<span
+style='mso-spacerun:yes'>    </span>Underlying energy constraints end up
+creating computational and storage limitations that lead to a new set of
+architectural issues.<span style='mso-spacerun:yes'>    </span>Many devices,
+such as cell phones and pagers, reduce their power consumption through the use
+specialized communication hardware in <span class=SpellE>ASICs</span> that
+provide low-power implementations of the necessary communication protocols and
+by relying on high-power infrastructure.<span style='mso-spacerun:yes'>  
+</span>However, the strength of wireless sensor networks is their flexibility
+and universality.<span style='mso-spacerun:yes'>   </span>The wide range of
+applications being targeted makes it difficult to develop a single protocol,
+and in turn, an ASIC, that is efficient for all applications.<span
+style='mso-spacerun:yes'>  </span>A w</span><span style='font-size:14.0pt;
+mso-fareast-font-family:"MS Mincho"'>ireless sensor network platform must
+provide support for a suite of application-specific protocols that drastically
+reduce node size, cost, and power consumption for their target
+application.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>The
+wireless sensor network architecture used by JLH Labs includes both a hardware
+platform and an operating system designed specifically to address the needs of
+wireless sensor networks.<span style='mso-spacerun:yes'>  </span>TinyOS is a
+component based operating system designed to run in resource constrained
+wireless devices.<span style='mso-spacerun:yes'>  </span>It provides highly
+efficient communication primitives and fine-grained concurrency mechanisms to
+application and protocol developers. A key concept in TinyOS is the use of
+event based programming in conjunction with a highly efficient component
+model.<span style='mso-spacerun:yes'>   </span>TinyOS enables system-wide
+optimization by providing a tight coupling between hardware and software, as
+well as flexible mechanisms for building application specific modules.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>TinyOS
+has been designed to run on a generalized architecture where a single CPU is
+shared between application and protocol processing.<span
+style='mso-spacerun:yes'>  </span>We detail three generations of wireless nodes
+and a host of application deployments that have proven the capabilities of our
+general system architecture.<span style='mso-spacerun:yes'>   </span>Below is a
+picture and timeline of several “mote” generations.<span
+style='mso-spacerun:yes'>  </span>The Mica platform has been produced in the
+largest quantities – over 5000 Mica nodes have been produced and distributed to
+over 250 companies and r<span class=MsoCommentReference><span style='mso-ansi-font-size:
+14.0pt;mso-bidi-font-size:14.0pt;display:none;mso-hide:all'><span
+style='mso-spacerun:yes'>  </span></span></span>esearch organizations from
+around the country.<span style='mso-spacerun:yes'>   </span>The Mica platform
+includes a low power transceiver, a power management subsystem, extended
+storage and an embedded microcontroller.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>The
+most advanced hardware platform we present is a single-chip CMOS device that
+integrates the processing, storage and communication capabilities to form a
+complete system node.<span style='mso-spacerun:yes'>  </span>This single chip
+node – called Spec – measures just 2.5 mm x 2.5 mm, contains a microcontroller,
+transmitter, ADC, general purpose I/O ports, UART, memory and encryption
+engine.<span style='mso-spacerun:yes'>   </span>The tiny chip only needs to be
+supported by a 32 KHz watch crystal, an off-chip inductor and a power supply, a
+battery and a 4 MHz clock.<span style='mso-spacerun:yes'>   </span>The Spec
+node represents the coming generation of wireless sensor nodes that will be
+manufactured for pennies and deployed in the millions.<o:p></o:p></span></p>
+
+<div style='mso-element:frame;mso-element-frame-hspace:9.35pt;mso-element-wrap:
+no-wrap-beside;mso-element-anchor-vertical:page;mso-element-anchor-horizontal:
+page;mso-element-left:125.7pt;mso-element-top:45.05pt;mso-height-rule:exactly'>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:9.35pt;
+  padding-bottom:0in;padding-left:9.35pt'>
+  <div>
+  <p class=MsoNormal align=center style='text-align:center;text-indent:0in;
+  line-height:normal;page-break-after:avoid;mso-element:frame;mso-element-frame-hspace:
+  9.35pt;mso-element-wrap:no-wrap-beside;mso-element-anchor-vertical:page;
+  mso-element-anchor-horizontal:page;mso-element-left:125.7pt;mso-element-top:
+  45.05pt;mso-height-rule:exactly'><span style='font-size:14.0pt'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1027" type="#_x0000_t75" style='width:414.75pt;height:224.25pt'>
+   <v:imagedata src="LowPowerWireless_files/image003.gif" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=553 height=299
+  src="LowPowerWireless_files/image003.gif" v:shapes="_x0000_i1027"><![endif]><o:p></o:p></span></p>
+  <p class=MsoCaption align=left style='text-align:left;text-indent:0in;
+  line-height:normal;mso-element:frame;mso-element-frame-hspace:9.35pt;
+  mso-element-wrap:no-wrap-beside;mso-element-anchor-vertical:page;mso-element-anchor-horizontal:
+  page;mso-element-left:125.7pt;mso-element-top:45.05pt;mso-height-rule:exactly'><a
+  name="_Toc41288575"><span style='font-size:14.0pt'>Design lineage of Mote
+  Technology.<span style='mso-spacerun:yes'>  </span>COTS (Common off the
+  shelf) prototypes lead to the </span></a><span class=SpellE><span
+  style='mso-bookmark:_Toc41288575'><span style='font-size:14.0pt'>weC</span></span></span><span
+  style='mso-bookmark:_Toc41288575'><span style='font-size:14.0pt'>
+  platform.<span style='mso-spacerun:yes'>  </span>Rene then evolved to allow
+  sensor expansion and enabled hundreds of compelling applications.<span
+  style='mso-spacerun:yes'>  </span>The Dot node was architecturally the same
+  as Rene but shrunk into a quarter-sized device.<span
+  style='mso-spacerun:yes'>  </span>Mica – discussed in depth in this thesis –
+  made significant architectural improvements in order to increase performance
+  and efficiency.<span style='mso-spacerun:yes'>  </span>Spec represents the
+  complete integrated CMOS vision.</span></span><span style='font-size:14.0pt'><o:p></o:p></span></p>
+  </div>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<![if !supportTextWrap]><br clear=ALL>
+<![endif]>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:14.0pt'>Both
+the Mica and Spec node are used to substantiate our claim that optimal system
+architecture for wireless sensor networks is to have a single central
+controller directly connected to a low-power radio transceiver through a rich
+interface that supports hardware assistance for communication primitives.<span
+style='mso-spacerun:yes'>   </span>In contrast to having a hierarchical
+partition of hardware resources dedicated to specific functions, a single
+shared controller performs all processing.<span style='mso-spacerun:yes'>  
+</span>This allows for the dynamic allocation of computation resources to the
+set of computational tasks demanded by the system.<span
+style='mso-spacerun:yes'>   </span>The layers of abstraction typically achieved
+through hardware partitioning can instead be achieved through the use of a
+highly efficient software-based component model.<span
+style='mso-spacerun:yes'>   </span>Software abstractions allow for a wider
+scope of cross-layer optimizations that can achieve orders of magnitude
+improvements is system performance.<span style='mso-spacerun:yes'>  </span>The
+power and viability of this architecture is demonstrated through a collection
+benchmarks performed on real-world hardware and in application level
+deployments.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
